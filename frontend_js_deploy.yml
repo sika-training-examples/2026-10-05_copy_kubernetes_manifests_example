@@ -20,6 +20,8 @@ spec:
           env:
             - name: API_ORIGIN
               value: http://backend
+            - name: FONT_COLOR
+              value: red
           ports:
             - name: http
               containerPort: 3000
