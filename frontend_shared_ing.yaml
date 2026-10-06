@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - frontend.k8s.sikademo.com
-      secretName: frontend.k8s.sikademo.com-tls
+        - argocd-counter-manifests.k8s.sikademo.com
+      secretName: argocd-counter-manifests.k8s.sikademo.com-tls
   rules:
-    - host: frontend.k8s.sikademo.com
+    - host: argocd-counter-manifests.k8s.sikademo.com
       http:
         paths:
           - path: /
